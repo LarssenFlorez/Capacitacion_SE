@@ -10,7 +10,7 @@ El curso está orientado a **ingenieros con experiencia en IEC 61131-3** que bus
 ## 🎯 Objetivos del curso
 - Aplicar buenas prácticas de programación estructurada bajo IEC 61131-3.  
 - Crear librerías reutilizables (DFB/FB) y plantillas de proyecto estándar.  
-- Integrar comunicación **Modbus, Profinet, Profibus y DNP3**.  
+- Integrar comunicación **Modbus, Profibus y DNP3**.  
 - Ejecutar pruebas con hardware real (2 PLC M580).  
 - Desarrollar un **proyecto integrador completo** basado en una estación crítica.  
 - Preparar un **plan de soporte y migración masiva** hacia PLC Schneider.  
@@ -50,10 +50,10 @@ Cada sesión incluye:
 ## 📅 Estructura del curso
 Duración total: **60 horas**  
 Modalidad: **Presencial práctica – 14 sesiones (7:30 a.m. a 12:00 m)**  
-Incluye rotación de PLC por grupo (1-2 y 3-4).  
+
 
 ---
 
-> 💡 Desarrollado por **ENCERT S.A.S.** | Marinilla – Antioquia, Colombia  
-> Contacto: larssen.florez@gmail.com | +57 310 351 4582
+> 💡 Desarrollado por **ENCERT INGENIERÍA S.A.S.** | Medellín – Antioquia, Colombia  
+> Contacto: larssen.florez@encert.com | +57 310 351 4582
 
