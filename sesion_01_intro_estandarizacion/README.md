@@ -19,15 +19,15 @@ Durante esta sesión se revisará:
 - **Arquitectura M580:**  
   - PLC de alto desempeño con CPU ePAC (Ethernet Programmable Automation Controller).  
   - CPU BMEP58xxxx con bus Ethernet nativo.  
-  - Comunicación integrada: Modbus TCP, Profinet, DNP3, OPC UA.  
+  - Comunicación integrada: Modbus TCP, DNP3, OPC UA.  
   - Módulos típicos:  
     | Tipo | Modelo | Descripción |
     |------|---------|-------------|
     | Fuente | **BMXCPS3500** | 24V DC, 3.5A |
-    | CPU | **BMEP581020** | CPU Ethernet, 2 puertos RJ45 |
+    | CPU | **BMEP581020** | CPU Ethernet, 3 puertos RJ45 |
     | Comunicación | **BMXNOM0200** | Serial RS232/485 |
     | Comunicación Ethernet | **BMXNOR0200H** | 2 puertos RJ45 TCP/IP |
-    | Bastidor | **BMXXBP0600** | 6 ranuras |
+    | Bastidor | **BMXXBP0600** | 6 slots |
 
 💡 *Durante el curso se trabajará con 2 PLC M580 completos y simulaciones equivalentes en Control Expert.*
 
@@ -52,6 +52,7 @@ Durante esta sesión se revisará:
 3. Seleccionar:  
    - **Family:** Modicon M580
    - Seleccionar la CPU con la que se va a trabajar
+   - Seleccionar el bastidor con el que se va a trabajar.
 4. Confirmar con **OK**.
 <img width="1091" height="580" alt="image" src="https://github.com/user-attachments/assets/ba2c1649-9fa0-4ad1-8aa2-6e1d8036b5c1" />
 
@@ -60,11 +61,12 @@ Durante esta sesión se revisará:
 ### 🔹 Paso 2 – Configurar el bastidor y la CPU
 1. En el panel izquierdo (Project Browser), dar clic derecho en `Rack 0 → Insert Module` o doble click.  
 2. Agregar los siguientes módulos en orden:
-   - ** Validar la fuente preseleccionada poir el software y dado caso cambiarla por la que se tenga fisicamente**  en nuestro caso BMXCPS3500.
+   - ** Validar la fuente preseleccionada por el software y dado caso cambiarla por la que se tenga fisicamente**  en nuestro caso BMXCPS3500.
    - Validar el Firmware de la CPU
    - **Slot 2:** BMXNOM0200 (Serial)  
    - **Slot 3:** BMXNOR0200H (Ethernet)
 3. Compilar la configuracion.
+4. Previsión de alimentación de la fuente.
 
 <img width="1092" height="577" alt="image" src="https://github.com/user-attachments/assets/c300641f-6c80-468f-b4d2-1de18ff67498" />
 
@@ -161,14 +163,14 @@ Todos los proyectos del curso deberán mantener esta organización:
 **Meta:** crear un proyecto completamente funcional y documentado en ambos PLCs.
 
 **Entregables:**
-- Proyecto `.zrx` operativo (CPU + módulos configurados).  
+- Proyecto `.XEF` operativo (CPU + módulos configurados).  
 - Captura de conexión exitosa con PLC físico o simulador.  
 - Carpeta `Sesion_01` actualizada en el repositorio GitHub.  
 
 **Validación del instructor:**
 - Proyecto compila y comunica correctamente.  
 - Nomenclatura y comentarios correctos.  
-- Sincronización exitosa entre PLC1 y PLC2.  
+
 
 ---
 
