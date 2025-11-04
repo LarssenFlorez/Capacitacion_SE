@@ -94,7 +94,7 @@ Durante esta sesión se revisará:
 - Agregar una instrucción para test:
   ```
   %Q0.0 := %I0.0;
-- Tipos de datos en SE
+
   ```
   <img width="1088" height="515" alt="image" src="https://github.com/user-attachments/assets/d47b1ebe-d97d-40f9-9eae-575b84d4ade6" />
   
