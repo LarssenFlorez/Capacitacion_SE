@@ -9,7 +9,7 @@
 
 ### 1️⃣ Introducción general al ecosistema Schneider
 
-**EcoStruxure Control Expert** es la plataforma de ingeniería para programar y configurar los controladores **Modicon** (M340, M580, M251, etc.), ofreciendo un entorno compatible con IEC 61131-3.
+**EcoStruxure Control Expert** es la plataforma de ingeniería para programar y configurar los controladores **Modicon** (M340, M580, etc.), ofreciendo un entorno compatible con IEC 61131-3.
 
 Durante esta sesión se revisará:
 - **Arquitectura M340:**  
@@ -19,12 +19,12 @@ Durante esta sesión se revisará:
 - **Arquitectura M580:**  
   - PLC de alto desempeño con CPU ePAC (Ethernet Programmable Automation Controller).  
   - CPU BMEP58xxxx con bus Ethernet nativo.  
-  - Comunicación integrada: Modbus TCP, Profinet, DNP3, OPC UA.  
+  - Comunicación integrada: Modbus TCP, DNP3, OPC UA.  
   - Módulos típicos:  
     | Tipo | Modelo | Descripción |
     |------|---------|-------------|
     | Fuente | **BMXCPS3500** | 24V DC, 3.5A |
-    | CPU | **BMEP581020** | CPU Ethernet, 2 puertos RJ45 |
+    | CPU | **BMEP581020** | CPU Ethernet, 3 puertos RJ45 |
     | Comunicación | **BMXNOM0200** | Serial RS232/485 |
     | Comunicación Ethernet | **BMXNOR0200H** | 2 puertos RJ45 TCP/IP |
     | Bastidor | **BMXXBP0600** | 6 ranuras |
@@ -65,6 +65,7 @@ Durante esta sesión se revisará:
    - **Slot 2:** BMXNOM0200 (Serial)  
    - **Slot 3:** BMXNOR0200H (Ethernet)
 3. Compilar la configuracion.
+4. Revisar previsión de alimentación de la fuente.
 
 <img width="1092" height="577" alt="image" src="https://github.com/user-attachments/assets/c300641f-6c80-468f-b4d2-1de18ff67498" />
 
@@ -192,14 +193,14 @@ Todos los proyectos del curso deberán mantener esta organización:
 **Meta:** crear un proyecto completamente funcional y documentado en ambos PLCs.
 
 **Entregables:**
-- Proyecto `.zrx` operativo (CPU + módulos configurados).  
+- Proyecto `.XEF` operativo (CPU + módulos configurados).  
 - Captura de conexión exitosa con PLC físico o simulador.  
 - Carpeta `Sesion_01` actualizada en el repositorio GitHub.  
 
 **Validación del instructor:**
 - Proyecto compila y comunica correctamente.  
 - Nomenclatura y comentarios correctos.  
-- Sincronización exitosa entre PLC1 y PLC2.  
+
 
 ---
 
