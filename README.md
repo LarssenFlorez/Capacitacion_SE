@@ -1,7 +1,7 @@
 # 🧠 Formación Técnica en PLC Schneider M580 / M340  
 ### Curso Avanzado – Programación y Protocolos Industriales  
 
-Este repositorio contiene todo el material oficial del curso práctico de formación avanzada en controladores **Schneider M580/M340**, impartido por **ENCERT S.A.S.**  
+Este repositorio contiene todo el material oficial del curso práctico de formación avanzada en controladores **Schneider M580/M340**, impartido por **ENCERT INGENIERIA S.A.S.**  
 
 El curso está orientado a **ingenieros con experiencia en IEC 61131-3** que buscan dominar la integración de protocolos industriales, diseño estructurado de librerías y estrategias de migración desde plataformas como **ControlWave** hacia el ecosistema **EcoStruxure Control Expert**.
 
