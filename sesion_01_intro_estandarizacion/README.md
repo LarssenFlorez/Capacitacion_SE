@@ -96,11 +96,8 @@ Durante esta sesión se revisará:
   %Q0.0 := %I0.0;
 
   ```
-  <img width="1088" height="515" alt="image" src="https://github.com/user-attachments/assets/d47b1ebe-d97d-40f9-9eae-575b84d4ade6" />
-  
-  (entrada digital reflejada en salida digital)
-
-  <img width="595" height="473" alt="image" src="https://github.com/user-attachments/assets/0166ae90-d56b-402d-ad7a-6df74105c591" />
+- Tipos de datos SE
+ <img width="1358" height="637" alt="image" src="https://github.com/user-attachments/assets/bc168624-3263-4ead-b165-133a4b79a1e6" />
 
   🧩 1. I/O data type: Topological
 
