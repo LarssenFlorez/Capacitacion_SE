@@ -55,5 +55,5 @@ Modalidad: **Presencial práctica – 14 sesiones (7:30 a.m. a 12:00 m)**
 ---
 
 > 💡 Desarrollado por **ENCERT INGENIERÍA S.A.S.** | Medellín – Antioquia, Colombia  
-> Contacto: larssen.florez@encert.com | +57 310 351 4582
+> Contacto: larssen.florez@encert.com.co | +57 310 351 4582
 
