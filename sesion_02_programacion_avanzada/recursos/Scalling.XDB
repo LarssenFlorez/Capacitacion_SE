@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FBExchangeFile>
+	<fileHeader company="Schneider Automation" product="Control Expert V16.0 - 240126A" dateTime="date_and_time#2025-11-11-1:36:28" content="Function Block source file" DTDVersion="41"></fileHeader>
+	<contentHeader name="Project" version="0.0.102" dateTime="date_and_time#2025-9-22-10:4:15"></contentHeader>
+	<FBSource nameOfFBType="Scalling" version="0.24" dateTime="dt#2022-04-04-09:25:42">
+		<attribute name="TypeCodeCheckSumString" value="2DD8"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="F01A"></attribute>
+		<attribute name="UseNewTplSignAlgo" value="TRUE"></attribute>
+		<inputParameters>
+			<variables name="Seg" typeName="BOOL">
+				<attribute name="PositionPin" value="5"></attribute>
+			</variables>
+			<variables name="Input" typeName="INT">
+				<attribute name="PositionPin" value="1"></attribute>
+			</variables>
+			<variables name="Fail" typeName="BOOL">
+				<attribute name="PositionPin" value="2"></attribute>
+			</variables>
+			<variables name="Span" typeName="REAL">
+				<attribute name="PositionPin" value="3"></attribute>
+			</variables>
+			<variables name="Zero" typeName="REAL">
+				<attribute name="PositionPin" value="4"></attribute>
+			</variables>
+		</inputParameters>
+		<outputParameters>
+			<variables name="Signal" typeName="REAL">
+				<attribute name="PositionPin" value="1"></attribute>
+			</variables>
+			<variables name="Bit_state" typeName="BOOL">
+				<attribute name="PositionPin" value="2"></attribute>
+			</variables>
+		</outputParameters>
+		<publicLocalVariables>
+			<variables name="m" typeName="REAL"></variables>
+			<variables name="b" typeName="REAL"></variables>
+			<variables name="Y" typeName="REAL"></variables>
+			<variables name="input_real" typeName="REAL"></variables>
+		</publicLocalVariables>
+		<privateLocalVariables>
+			<variables name="Tpo_fail" typeName="TON"></variables>
+		</privateLocalVariables>
+		<FBProgram name="Escalizacion">
+			<STSource>(* Rango de la entrada es 0 a 10000 *)
+
+IF input&gt;0 THEN
+	input_real:=INT_TO_REAL (input);
+ELSE input_real:=0.0;
+END_IF;
+
+IF input&gt;10000 THEN
+	input_real:=10000.0;
+END_IF;
+
+(*Ecuacion de recta Y=(m*input + zero*)
+(*m=(span-zero)/10000*)
+
+IF Seg THEN
+	Signal:=((span-zero)/10000.0)*(input_real) + zero;
+END_IF;
+
+
+(* Cuestionamiento de la señal*)
+
+Bit_state:=Fail;
+</STSource>
+		</FBProgram>
+	</FBSource>
+</FBExchangeFile>
