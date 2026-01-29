@@ -11,12 +11,11 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 
 - Estructura de archivos `.CSV` para Control Expert  
 - Reglas de nomenclatura y consistencia  
-- Validación previa con Excel / VS Code / Notepad++  
+- Validación previa con Excel
 - Importación de tags al proyecto  
-- Vinculación automática con bloques DFB diseñados en la sesión anterior  
 - Corrección de errores frecuentes (espacios, formatos, celdas vacías, duplicados)
 
-💡 *Se continúa con la estrategia de rotación entre grupos para uso práctico de los PLCs.*
+
 
 ---
 
@@ -34,7 +33,6 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 - Plantilla CSV con formato correcto (`/recursos/plantilla_csv_tanque.csv`)  
 - Proyecto de Sesión 3 con DFBs cargados (`/recursos/proyecto_con_libreria.stu`)  
 - Hoja de validación rápida (`/materiales/checklist_validacion_csv.xlsx`)  
-- Ejemplos de errores comunes (`/ejercicios/errores_frecuentes.csv`)  
 - Carpeta `/imagenes/` para capturas de prueba y validación
 
 ---
@@ -45,7 +43,7 @@ Esta sesión explora el uso avanzado del asistente de importación/exportación 
 
 1. Abrir plantilla base con 50 señales predefinidas.  
 2. Asignar nombres, tipos, comentarios y direcciones.  
-3. Validar sintaxis en Excel y VS Code.  
+3. Validar sintaxis en Excel. 
 4. Probar importación en proyecto simulado.  
 5. Revisar errores y corregir conflictos de duplicados o tipo de dato.
 
